@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo,.button,.list,.icons{
+    float: left;
+}
+.logo{
+    width: 30%;
+}
+.list{
+    width: 45%;
+
+}
+.icons i{
+    margin-right: 15px;
+    color: #384aeb;
+   
+}
+.list li{
+    float: left;
+    margin-right: 20px;
+}
+.list li a{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 16px;
+}
+.navbar{
+    padding: 20px 0;
+}
+.button{
+    border: 1px solid #384aeb;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.button a {
+    text-transform: capitalize;
+    color: #333;
+
+}
+
+.list,.icons{
+    padding-top: 10px;
+}
+.icons i.fa-bars{
+    display:none;
+}
+
+.parg{
+        float: right;
+        width: 60%;
+        padding-top: 190px;
+        padding-left: 70px;
+       
+    }
+ .image{
+        float: left;
+        width: 40%;
+     }
+.image img{
+        width: 100%;
+    }
+    .p1{
+        font-size: 25px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+.p2{
+    color: #333;
+    font-size: 15;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}    
+.parg .button{
+      background-color: #384aeb;
+}
+.parg .button a{
+
+    color: white;
+}
+.item{
+    float: left;
+    width: 32%;
+    padding-right: 15px;
+}
+
+.item img{
+    width: 100%;
+}
+.imgBar{
+    margin-top: 80px;
+}
+
+.stuff{
+    margin-top: 80px;
+}
+.lastparg h2{
+    padding:15px 0px 25px;
+    font-size:32px ;
+}
+.lastparg h2 .spn{
+border-bottom: 2px solid #384aeb;
+}
+.lastparg p{
+font-size: 17px;
+}
+
+.prodect{
+    float: left;
+    width: 25%;
+    padding-right: 40px;
+    padding-top: 25px;
+    text-align: center;
+}
+.prodect img{
+    width: 100%;
+}
+.prodect .price{
+    color: #384aeb;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 7px;
+}
+.prodect .sty{
+    padding-top: 7px ;
+    padding-bottom: 7px;
+}
+.stuff{
+    margin-bottom: 30px;
+}
